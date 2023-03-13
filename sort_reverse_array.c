@@ -32,6 +32,16 @@ int main(){
 			}
 		}
 	}
+	/*//descending order code
+	for(i=0;i<n;i++){
+		for(j=i+1;j<n;j++){
+			if(arr[i]<arr[j]){
+				temp=arr[i];
+				arr[i]=arr[j];
+				arr[j]=temp;
+			}
+		}
+	}*/
 	//ascending order 
 	printf("\n The array in ascending order is              : ");
 	for(i=0;i<n;i++){
